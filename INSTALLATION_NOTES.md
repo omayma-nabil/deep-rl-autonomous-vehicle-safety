@@ -59,28 +59,28 @@ conda create --name carla-sim python=3.7
 
 # Activate environment
 conda activate carla-sim
-
+```
 ## 4. How to Display Diagrams & Open Jupyter Notebook
 **Activate your CARLA environment in Anaconda Prompt:**
 
 ```bash
 conda activate carla-sim
 
-Navigate to the CARLA PythonAPI examples folder:
+# Navigate to the CARLA PythonAPI examples folder:
 
-```bash
 cd C:\path\to\CarlaSimulator\PythonAPI\examples
 
-
+```
 Run TensorBoard to visualize training logs and diagrams:
 
 ```bash
 tensorboard --logdir=logs/
 
-
+```
 Open the URL displayed in the terminal (usually http://localhost:6006) in your browser to see loss, rewards, and other metrics.
 
 Launch Jupyter Notebook to run your scripts interactively:
 
 ```bash
 jupyter notebook
+```
