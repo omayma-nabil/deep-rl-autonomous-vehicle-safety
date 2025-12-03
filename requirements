@@ -1,0 +1,15 @@
+# Core libraries
+numpy==1.23.5
+opencv-python==4.10.0
+pygame==1.21.6
+tqdm==4.67.1
+
+# TensorFlow / Keras
+tensorflow==2.10.1
+keras==2.10.0
+
+# CARLA API
+carla==0.9.15
+
+# Optional / utils
+matplotlib==3.7.1
