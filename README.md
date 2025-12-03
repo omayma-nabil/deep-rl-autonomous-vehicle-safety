@@ -45,7 +45,5 @@ At each time step `t`:
 
 Objective: learn policy π that maximizes **expected cumulative reward**:  
 
-\[
-\pi^*(s) = \arg\max_\pi \mathbb{E}[\sum_{t=0}^\infty \gamma^t r_t | s_0 = s, \pi]
-\]
+pi*(s) = argmax_pi E[ sum_{t=0}^{∞} gamma^t r_t | s_0 = s, pi ]
 
