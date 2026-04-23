@@ -27,4 +27,7 @@ Unlike supervised or unsupervised learning, RL **does not require pre-collected 
 - **Environment:** Where the agent acts and receives feedback.
 - **State:** The current situation of the agent in the environment.
 - **Reward:** Numerical feedback for each action, guiding learning.
-![RL Key Concepts](2.png)
+<p align="center">
+  <img src="2.png" width="500"/>
+</p>
+
