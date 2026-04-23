@@ -28,6 +28,6 @@ Unlike supervised or unsupervised learning, RL **does not require pre-collected 
 - **State:** The current situation of the agent in the environment.
 - **Reward:** Numerical feedback for each action, guiding learning.
 <p align="center">
-  <img src="2.png" width="500"/>
+  <img src="2.PNG" width="500"/>
 </p>
 
