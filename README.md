@@ -29,5 +29,33 @@ Unlike supervised or unsupervised learning, RL **does not require pre-collected 
 - **Reward:** Numerical feedback for each action, guiding learning.
 <p align="center">
   <img src="2.PNG" width="500"/>
+  <br>
+  <em>Figure 1: Agent-Environment Interaction in Reinforcement learnin</em>
+  
 </p>
 
+## 2. Results
+
+The experiments were conducted on a high-performance machine equipped with an Intel Core i9 processor, NVIDIA RTX 4090 GPU, and 32 GB RAM. The DQN agent was trained for 5,000 episodes, and performance was monitored using TensorBoard.
+
+Loss Curve:
+The loss represents the difference between predicted and target Q-values. A decreasing trend indicates that the model is learning effectively and improving its predictions (see Figure 4.1).
+
+Exploration Rate (Epsilon):
+The epsilon value decreases over time (Figure 4.2), which is expected behavior. The agent initially explores the environment and gradually shifts toward exploitation of learned strategies.
+
+Minimum Reward (reward_min):
+An increasing trend (Figure 4.3) suggests that the agent is avoiding poor decisions and reducing critical errors.
+
+Average Reward (reward_avg):
+A decreasing trend (Figure 4.4) indicates that the agent may converge toward a sub-optimal strategy, highlighting potential issues in the learning process.
+
+Maximum Reward (reward_max):
+The observed decrease (Figure 4.5) suggests that the agent is no longer achieving its best possible performance. This is likely due to the reward design, where penalties are applied for collisions, but no positive reward is given for successful avoidance.
+
+<p align="center">
+  <img src="result.png" width="500"/>
+  <br>
+  <em>Figure 1: Agent-Environment Interaction in Reinforcement learnin</em>
+  
+</p>
