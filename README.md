@@ -57,7 +57,7 @@ The observed decrease (Figure 4.5) suggests that the agent is no longer achievin
   <img src="result.png" width="500"/>
   <br>
 </p>
- <img src="resultS 2.png" width="500"/>
+ <img src="result2.png" width="500"/>
 
 ## 3. Limitations
 
