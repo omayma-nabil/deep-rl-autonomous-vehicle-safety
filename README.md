@@ -64,11 +64,11 @@ The observed decrease (Figure 4.5) suggests that the agent is no longer achievin
 
 ## 3. Limitations
 
-- Limited training time and computational resources
+- Limited training time and computational resources.
 
-- Simulation-to-real-world gap
+- Simulation-to-real-world gap.
 
-- Sensitivity to reward design
+- Sensitivity to reward design.
 
 - Lane-keeping issue: The agent does not consistently maintain its position within the driving lane, indicating that it has not fully learned stable lateral control.
 
