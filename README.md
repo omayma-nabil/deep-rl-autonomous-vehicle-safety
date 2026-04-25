@@ -1,7 +1,7 @@
 # deep-rl-autonomous-vehicle-safety
 Deep Reinforcement Learning project for autonomous vehicle safety using DQN in the CARLA simulator.
 
-📌 Overview
+ # Overview
 
 Autonomous driving is evolving rapidly with advances in AI and sensor systems, but **safety in dynamic environments** remains a major challenge.
 Traditional supervised learning approaches require large labeled datasets and fail to generalize to **dangerous or rare safety-critical scenarios**.
@@ -10,7 +10,7 @@ This project implements **Deep Reinforcement Learning (DRL)** — specifically a
 
 The agent learns safe behavior (collision avoidance, speed control) by interacting with the environment and receiving reward signals.
 
-## 🎯 Objectives
+##  Objectives
 
 
 - Apply **Deep Reinforcement Learning (DRL)** — specifically the **DQN algorithm** — to improve autonomous vehicle decision-making.  
