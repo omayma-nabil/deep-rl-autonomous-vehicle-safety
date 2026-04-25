@@ -72,4 +72,8 @@ The observed decrease (Figure 4.5) suggests that the agent is no longer achievin
 
 - Lane-keeping issue: The agent does not consistently maintain its position within the driving lane, indicating that it has not fully learned stable lateral control.
 
-
+## 4. Future work
+- Add an obstacle detector and a lane crossing detection system.
+- Increase the complexity of the environment, by integrating elements such as traffic, pedestrians, cyclists and varied weather conditions. 
+- Use sensor fusion, such as camera and LiDAR, applying algorithms such as NCNN to improve detection accuracy.
+- Evaluate modeling in various maps vicii c est que j ai propser dans mon rapport.
