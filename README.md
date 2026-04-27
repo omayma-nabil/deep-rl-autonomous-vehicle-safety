@@ -8,6 +8,11 @@ This project implements **Deep Reinforcement Learning (DRL)** — specifically a
 
 The agent learns safe behavior (collision avoidance, speed control) by interacting with the environment and receiving reward signals.
 
+<p align="center">
+  <img src="demo.gif" width="600"/>
+  <br>
+  <em>Simulation of the autonomous driving agent using DQN in CARLA</em>
+</p>
 ##  Objectives
 
 
